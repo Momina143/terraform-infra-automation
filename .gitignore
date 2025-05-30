@@ -1,0 +1,17 @@
+# Ignore Terraform state files and crash logs
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/*.backup
+**/*.crc
+
+# Ignore Terraform provider plugins and init folders
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Ignore any local override files
+*.tfvars
+*.tfvars.json
+
+# Ignore VSCode settings (optional, if you're using VSCode)
+.vscode/
+
